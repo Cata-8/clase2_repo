@@ -14,6 +14,10 @@ while True:
     
     if opt == 1:
         resultado = num1 + num2
-        print(f"El reusltado es: ")
+        print(f"El reusltado es: {resultado}")
     elif opt == 2:
-        
+        resultado = num1 - num2
+        print(f"El reusltado es: {resultado}")
+    elif opt == 5:
+        break
+print("gracias")
